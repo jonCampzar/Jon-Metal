@@ -14,6 +14,7 @@
 }
 #fuego{
     background-color: black;
+    border: 4px solid rgb(204, 88, 53);
 }
 .pantalla{
     position: absolute; /* para que se salga del flujo, absolute, w para que ocupe todo el espacio del carrusel y el height, display flex para que podamos alinearlo y justificarlo al centro, justify para horizontal, align para vertical y text align para centrar el texto*/
@@ -41,4 +42,15 @@ width: 50vw; /* 50vw para que no ocupe todo el ancho */
 .video-iframe{
     width: 100%;
     height: 250px;
+}
+.mapa-iframe{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;  
+}
+.chopo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
