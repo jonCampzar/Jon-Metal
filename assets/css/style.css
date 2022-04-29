@@ -1,7 +1,7 @@
 /* navbar */
 .img-logo{
-    width: 90px;
-    height: 70px;
+    width: 70px;
+    height: 60px;
     object-fit: fill;
     object-position: center;
     /* fit para que se contenga en un tamaño sin deformarse */
