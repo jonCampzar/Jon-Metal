@@ -9,7 +9,7 @@
 .img-car{
     height: calc(100vh - 76px) ;
     /* alli hacemos un calculo para que la foto este alta del tamaño de la pantalla y le restamos el tamaño de la navbar de esa */
-    object-fit: cover;
+    object-fit:fill;
     object-position: center;
 }
 #fuego{
@@ -28,9 +28,9 @@
 }
 .cuadro{
 border-radius: 10px;
-background-color: rgba(0, 0, 0, 0.274);
+background-color: rgba(0, 0, 0, 0.795);
 padding: 20px;
-color: white;
+color: rgba(255, 255, 255, 0.849);
 width: 50vw; /* 50vw para que no ocupe todo el ancho */
 }
 .img-card{
@@ -51,6 +51,9 @@ width: 50vw; /* 50vw para que no ocupe todo el ancho */
 }
 .chopo{
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
+#mot{
+    align-items: center;
+    justify-content: center;
+}
+
