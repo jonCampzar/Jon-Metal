@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@500&family=Rajdhani:wght@300&family=Special+Elite&display=swap');
 
 
-p,h3,h5,h2,h1{
+p,h3,h5,h2,h1, button, a{
     font-family: Special Elite;
+}
+h5,h2{
+    color: rgba(148, 24, 8, 0.925);
+}
+.formulario{
+    font-family: Special Elite;
+}
+#judas{
+    width: 70px;
+    justify-content: center;
+    align-items: center;
 }
 /* navbar */
 .img-logo{
