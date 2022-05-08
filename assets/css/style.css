@@ -4,6 +4,9 @@
 p,h3,h5,h2,h1, button, a{
     font-family: Special Elite;
 }
+.nav-link{
+    font-family: Special Elite;
+}
 h5,h2{
     color: rgba(148, 24, 8, 0.925);
 }
